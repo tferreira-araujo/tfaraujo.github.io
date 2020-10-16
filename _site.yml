@@ -1,7 +1,7 @@
 name: "my-website"
 output_dir: "."
 navbar:
-  title: "My Website"
+  title: "Thais Ferreira-Araújo"
   left:
     - text: "Home"
       icon: fa-home
@@ -12,7 +12,19 @@ navbar:
     - text: "Publications"
       icon: fa-book
       href: publications.html
+  right:
+    - icon: fa-envelope
+      href: contact.html
+    - icon: fa-orcid
+      href: https://orcid.org/0000-0002-7405-5907
+    - icon: fa-researchgate
+      href: https://www.researchgate.net/profile/Thais_Ferreira-Araujo
+    - icon: fa-twitter
+      href: https://twitter.com/ThaisFPAraujo
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/thais-f-p-araujo/
 output:
   html_document:
     theme: cosmo
     highlight: textmate
+    css: 'styles.css'

@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -79,6 +82,7 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="styles.css" type="text/css" />
 
 
 
@@ -259,6 +263,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -266,6 +333,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -278,7 +355,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">My Website</a>
+      <a class="navbar-brand" href="index.html">Thais Ferreira-Araújo</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -305,7 +382,36 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://orcid.org/0000-0002-7405-5907">
+    <span class="fa fa-orcid"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.researchgate.net/profile/Thais_Ferreira-Araujo">
+    <span class="fa fa-researchgate"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/ThaisFPAraujo">
+    <span class="fa fa-twitter"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/thais-f-p-araujo/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -320,10 +426,39 @@ $(document).ready(function () {
 </div>
 
 
-<p>Here are all my publications so far!</p>
+<p>Here are all my publications.</p>
+<hr />
+<p><br></p>
+<div id="peer-reviewed-papers" class="section level1">
+<h1>Peer-reviewed Papers</h1>
+<p>All my published or <em>in press</em> papers in scientific journals so far.</p>
+<p><br></p>
+<div id="section" class="section level2">
+<h2>2020</h2>
+<p>Zizka A, Antunes Carvalho F, Calvente A, Rocio Baez-Lizarazo M, Cabral A, Coelho JFR, Colli-Silva M, Fantinati MR, Fernandes MF, <strong>Ferreira-Araújo T</strong>, Gondim Lambert Moreira F, Santos NMC, Santos TAB, dos Santos-Costa RC, Serrano FC, Alves da Silva AP, de Souza Soares A, Cavalcante de Souza PG, Calisto Tomaz E, Vale VF, Vieira TL, Antonelli A (2020). No one-size-fits-all solution to clean GBIF. <em>PeerJ</em> 8:e9916. <a href="https://doi.org/10.7717/peerj.9916">doi: 10.7717/peerj.9916</a></p>
+<p><br></p>
+</div>
+<div id="section-1" class="section level2">
+<h2>2019</h2>
+<p>Costa, S.Y.L.; Petean, F.F.; <strong>Araújo, T.F.P.</strong>; Medeiros, L.S.; Barros-Neto, L.F.; Paiva, R.E.C.; Bennemann, A.B.A.; Abrantes, Y.G.; Lira, M.G.S.; Lima, S.M.Q. (2019). Coleção ictiológica da Universidade Federal do Rio Grande do Norte: um relevante acervo de peixes da Caatinga e áreas adjacentes. <em>Boletim Sociedade Brasileira de Ictiologia</em> 129: 146-153. <a href="http://www.sbi.bio.br/images/sbi/boletim-docs/2019/outubro_129.pdf">link</a></p>
+<p><br></p>
+</div>
+<div id="section-2" class="section level2">
+<h2>2017</h2>
+<p>Lima, S.M.Q.; Berbel-Filho, W.M.; <strong>Araújo, T.F.P.</strong>; Lazzarotto, H.; Tatarenkov, A.; Avise, J.C. (2017). Headwater Capture Evidenced by Paleo-Rivers Reconstruction and Population Genetic Structure of the Armored Catfish (<em>Pareiorhaphis garbei</em>) in the Serra do Mar Mountains of Southeastern Brazil. <em>Frontiers in genetics</em> 8: 199. <a href="https://doi.org/10.3389/fgene.2017.00199">doi: 10.3389/fgene.2017.00199</a></p>
+<p><br></p>
+</div>
+</div>
+<div id="theses" class="section level1">
+<h1>Theses</h1>
+<p>Master’s Thesis: From “ginga” to sardine: ethnoichthyology and molecular systematics of small fishes with cultural value of Brazilian coast (April 2020). Universidade Federal do Rio Grande do Norte. <a href="files/master_thesis.pdf">pdf</a></p>
+<p>Bachelor’s Thesis: <em>Pareiorhaphis garbei</em> (Ihering 1911), a suckermouth amoured catfish of Atlantic Forest headwaters, southeast of Brazil: an endangered cryptic species complex? (November 2017). Universidade Federal do Rio Grande do Norte.</p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -356,6 +491,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

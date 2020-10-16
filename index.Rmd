@@ -1,7 +1,20 @@
 ---
-title: "My Website"
+title: "My Academic Website"
+author: "Last update: 19/10/2020"
 ---
 
-Hello, Website! 
+<link rel="stylesheet" href="styles.css" type="text/css">
 
-This is my first attempt to create my own academic website. Let's see how this goes.
+<img src="images/profile2.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+
+
+Hello, everyone! 
+
+I'm Thais Ferreira-Araújo and this is my personal academic website. Here you can find out more about me and my work as a scientist/researcher. Besides work, I'm also part of the [500 Women Scientist](https://500womenscientists.org/), Natal-Brazil pod.
+
+Here is my full [CV](files/CV_Thais_english.pdf).
+
+Some relevant links:
+
+- [ResearchGate](https://www.researchgate.net/profile/Thais_Ferreira-Araujo)
+- [ORCID](https://orcid.org/0000-0002-7405-5907)
