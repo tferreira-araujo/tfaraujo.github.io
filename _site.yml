@@ -4,9 +4,14 @@ navbar:
   title: "My Website"
   left:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
+      icon: fa-info
       href: about.html
+    - text: "Publications"
+      icon: fa-book
+      href: publications.html
 output:
   html_document:
     theme: cosmo
