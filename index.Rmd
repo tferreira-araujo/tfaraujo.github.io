@@ -4,4 +4,4 @@ title: "My Website"
 
 Hello, Website! 
 
-This is my first attempt to create my own academic website
+This is my first attempt to create my own academic website. Let's see how this goes.
