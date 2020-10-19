@@ -4,10 +4,14 @@ author: "Last update: 19/10/2020"
 ---
 
 
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<img src="images/profile2.jpg" style="width:30%; border:10px solid; margin-right: 20px" align="left">
+
 
 Hello, everyone! 
 
-I'm Thais Ferreira-Araújo and this is my personal academic website. Here you can find out more about me and my work as a scientist/researcher. Besides work, I'm also part of the [500 Women Scientist](https://500womenscientists.org/), Natal-Brazil pod.
+I'm Thais Ferreira-Araújo and this is my personal academic website. Here you can find out more about me and my work as a scientist/researcher. Besides work, I'm also part of the [500 Women Scientist](https://500womenscientists.org/), Natal-Brazil pod. From time to time, I participate in online classes through [Skype a Scientist](https://www.skypeascientist.com/) to talk about my work, science, and fish.
 
 Here is my full [CV](files/CV_Thais_english.pdf).
 
