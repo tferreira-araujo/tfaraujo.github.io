@@ -15,9 +15,9 @@ navbar:
   right:
     - icon: fa-envelope
       href: contact.html
-    - icon: fa-orcid
+    - icon: fa-address-card
       href: https://orcid.org/0000-0002-7405-5907
-    - icon: fa-researchgate
+    - icon: fa-registered
       href: https://www.researchgate.net/profile/Thais_Ferreira-Araujo
     - icon: fa-twitter
       href: https://twitter.com/ThaisFPAraujo
