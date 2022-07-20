@@ -1,2 +1,2 @@
-# tfaraujo.github.io
+# tferreira-araujo.github.io
 Repository for my website
